@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "2064000000011016",
+      "name": "FOOD-DONATION",
+      "domain": {
+        "id": "50010636247",
+        "name": "food-donation-60016840052.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "60016840052",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

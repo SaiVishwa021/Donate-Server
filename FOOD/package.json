@@ -1,0 +1,11 @@
+{
+  "name": "food_donation_function",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "sujitha.ad21@bitsathy.ac.in",
+  "dependencies": {
+    "express": "^4.18.1",
+    "req": "^0.1.4",
+    "zcatalyst-sdk-node": "latest"
+  }
+}

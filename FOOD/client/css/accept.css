@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 3.4rem 22rem;
+  background-color: black;
+}
+
+span {
+  color: rgb(255, 92, 92);
+}
+
+.grid {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.form {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
+  );
+  border-radius: 10px;
+  padding: 2.4rem 0;
+}
+
+.donate {
+  text-align: center;
+}
+
+.heading {
+  color: aliceblue;
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 1.2rem;
+}
+
+.dona {
+  color: #63d1a7;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 2.2rem;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  margin-bottom: 0.4rem;
+  font-size: 1.4rem;
+}
+
+.item {
+  padding-left: 12rem;
+}
+
+.icon {
+  margin-right: 0.7rem;
+  height: 2rem;
+  color: #63d1a7;
+}
+
+.inp-member {
+  width: 88%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff8e8;
+  color: #aaa;
+}
+
+.inp {
+  width: 70%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff8e8;
+  color: #aaa;
+}
+
+.inp::placeholder,
+.inp-member::placeholder {
+  font-size: 1.2rem;
+  color: #999;
+}
+
+input,
+select {
+  outline: none;
+}
+
+input:focus,
+input:active {
+  border-color: transparent;
+  border-bottom: 2px solid #63d1a7;
+}
+
+.donate-form {
+  margin-bottom: 3.2rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-form:link,
+.btn-form:visited {
+  text-decoration: none;
+  margin-top: 2.2rem;
+  background-color: #63d1a7;
+  padding: 1.2rem 2.2rem;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.btn-form:hover,
+.btn-form:active {
+  background-color: #45d09b;
+  color: #ffffff;
+}

@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "targets": [
+      "food_donation_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  },
+  "apig": {
+    "enabled": false
+  }
+}

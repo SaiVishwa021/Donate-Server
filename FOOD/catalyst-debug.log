@@ -1,0 +1,90 @@
+[debug] [2022-09-24T16:25:28.939Z] : 
+[debug] [2022-09-24T16:25:28.940Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T16:25:28.941Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Pavi\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-24T16:25:28.941Z] : CLI Version:  1.13.3
+[debug] [2022-09-24T16:25:28.942Z] : Platform:     win32
+[debug] [2022-09-24T16:25:28.942Z] : Node Version: v18.9.0
+[debug] [2022-09-24T16:25:28.943Z] : Time:         Sat Sep 24 2022 21:55:28 GMT+0530 (India Standard Time)
+[debug] [2022-09-24T16:25:28.943Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T16:25:28.943Z] : 
+[debug] [2022-09-24T16:25:29.571Z] : > authorizing via signed-in user option
+[debug] [2022-09-24T16:25:29.571Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-24T16:25:29.610Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2064000000011016 
+
+[debug] [2022-09-24T16:25:30.213Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 16:25:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=7326599a-aa54-4b5f-b6d9-a515a1db6717;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7326599a-aa54-4b5f-b6d9-a515a1db6717;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T16:25:30.218Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2064000000011016/environment 
+
+[debug] [2022-09-24T16:25:30.524Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 16:25:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=973e9fb7-9cc3-4850-bc0b-4415a5015006;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=973e9fb7-9cc3-4850-bc0b-4415a5015006;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-09-24T16:25:30.715Z] : Skipping API Gateway rules
+[debug] [2022-09-24T16:25:30.719Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2064000000011016/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-24T16:25:31.041Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 16:25:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=080db684-c411-4e22-9084-c20374d432f4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=080db684-c411-4e22-9084-c20374d432f4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T16:25:31.043Z] : unknown eol undefined hence skipping check
+[info] [2022-09-24T16:25:31.084Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:25:31.084Z] : 
+[info] [2022-09-24T16:25:31.246Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-24T16:27:14.675Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:27:14.720Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:27:14.720Z] : 
+[info] [2022-09-24T16:27:14.835Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:35:13.778Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:35:13.825Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:35:13.825Z] : 
+[info] [2022-09-24T16:35:13.939Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:35:37.501Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:35:37.525Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:35:37.526Z] : 
+[info] [2022-09-24T16:35:37.642Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:36:12.160Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:36:12.193Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:36:12.194Z] : 
+[info] [2022-09-24T16:36:12.306Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:37:00.398Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:37:00.437Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:37:00.440Z] : 
+[info] [2022-09-24T16:37:00.541Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:37:39.867Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:37:39.889Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:37:39.890Z] : 
+[info] [2022-09-24T16:37:40.002Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:40:03.572Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:40:03.595Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:40:03.596Z] : 
+[info] [2022-09-24T16:40:03.700Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:40:04.704Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:40:04.729Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:40:04.730Z] : 
+[info] [2022-09-24T16:40:04.842Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:42:30.819Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:42:30.983Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:42:30.983Z] : 
+[info] [2022-09-24T16:42:31.091Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:42:32.097Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:42:32.146Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:42:32.146Z] : 
+[info] [2022-09-24T16:42:32.252Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:45:21.303Z] : Change(s) is detected in orders.html of the Web-Client.
+[info] [2022-09-24T16:45:54.601Z] : Change(s) is detected in orders.html of the Web-Client.
+[info] [2022-09-24T16:48:22.328Z] : 
+change of index.js in food_donation_function detected. Preparing your function, please wait...
+[info] [2022-09-24T16:48:22.428Z] : i server[food_donation_function]: URL : http://localhost:3000/server/food_donation_function/
+[info] [2022-09-24T16:48:22.428Z] : 
+[info] [2022-09-24T16:48:22.529Z] : i server[food_donation_function]: ready!
+[info] [2022-09-24T16:48:35.555Z] : Change(s) is detected in orders.html of the Web-Client.

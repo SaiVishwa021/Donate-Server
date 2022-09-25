@@ -1,0 +1,63 @@
+/* LET THE STYLING BEGIN */
+html, body {
+    height: 100%;
+  }
+.full-height {
+    height: 100%;
+  }
+
+
+#order-list-div{
+    position: relative;
+    width: 95%;
+    
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#order-list-div form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#close-list-div{
+    position: relative;
+    width: 95%;
+    
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#close-list-div form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+ul{
+  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+
+

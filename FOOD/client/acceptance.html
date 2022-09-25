@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" />
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Donate Form</title>
+    <script src="https://static.zohocdn.com/catalyst/sdk/js/2.0.0/catalystWebSDK.js"></script>
+    <script src="/__catalyst/sdk/init.js"></script>
+
+  </head>
+  <body style="background-color:black">
+    <section class="form">
+      <div class="form-content">
+        <div class="donate">
+          <h1 class="heading"><span class="dona">Accept</span> Food!!</h1>
+          <p class="sub-heading">
+           We are here to help you!!
+          </p>
+        </div>
+        <div class="donate-form grid grid--2-cols">
+          <div class="item">
+            <p class="name"><ion-icon class="icon" name="restaurant-outline"></ion-icon>Trust Name<span>*</span></p>
+            <input class="inp" id="name1" type="text" name="Restaraunt_Name" placeholder="Ex: La Taj" required/>
+          </div>
+
+          <div class="item">
+            <p class="name" ><ion-icon class="icon" name="mail-outline"></ion-icon>E-mail<span>*</span></p>
+            <input class="inp" id="mail1" type="email"   name="email" aria-describedby="emailHelp" placeholder="Ex: XXXXXXX@gmail.com" required/>
+            
+          </div>
+          
+          <div class="item">
+            <p class="name" ><ion-icon class="icon" name="call-outline"></ion-icon>Phone-No<span>*</span></p>
+            <input class="inp" id="phone1" type="tel"   name="Phone_No" placeholder="Ex: 7845XXX987" required/>
+          </div>
+          <div class="item">
+            <p class="name" ><ion-icon class="icon" name="book-outline"></ion-icon>Address<span>*</span></p>
+            <input class="inp" id="street1" type="text"   name="Address" placeholder="Ex: La Taj Main road " required/>
+          </div>
+          <div class="item">
+            <p class="name"><ion-icon class="icon" name="location-outline"></ion-icon>City<span>*</span></p>
+            <input class="inp" id="city1" type="text"   name="City" placeholder="Ex: Mumbai" required/>
+          </div>
+          <div class="item">
+            <p class="name"><ion-icon class="icon" name="date-outline"></ion-icon>Acceptor_name<span>*</span></p>
+            <input class="inp" id="owner1" type="text"   name="Date" placeholder="Ex:john" required/>
+          </div>
+        </div>
+        <div class="question">
+          <label class="sub">Enter the below fields with approximate details.</label>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="item">
+            <p class="name" >Type<span>*</span></p>
+            <select class="inp" id="ty" required>
+              <option style="color:gray;">Select</option>
+              <option>Governmental</option>
+              <option>Non-governmental</option>
+            </select>
+          </div>
+          <div class="item">
+            <p class="name">No.of.Members(in trust)<span>*</span></p>
+            <input class="inp" type="text"  id="mem" name="Availble_food_for" placeholder="Ex: 30" required/>
+          </div>
+
+        </div>
+        <div class="btn">
+          <a  class="btn-form" onclick="fill_data()">Submit &rarr;</a>
+         </div>
+        </div>
+      </div>
+  </body>
+</html>

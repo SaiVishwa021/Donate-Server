@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "food_donation_function",
+		"stack": "node16",
+		"type": "advancedio",
+		"module": "commonjs"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}
